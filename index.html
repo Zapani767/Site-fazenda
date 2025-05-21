@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fazenda Ecológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Fazenda Ecológica</h1>
+        <img src="logo.png" alt="Logo do jogo">
+    </header>
+    <section class="movimento">
+        <h2>1. Movimento Básico</h2>
+        <p class="descricao">
+            Se você ainda não conhece os controles do nosso jogo, aqui está um breve resumo das principais formas de movimentação e interação com o ambiente.
+        </p>
+    
+        <div class="movimento-container">
+            <div class="tabela-movimento">
+                <h3>1.1 Movimento do Personagem</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecla</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>W</td>
+                            <td>Movimenta o personagem para frente/cima <span class="seta-grande">↑</span></td>
+                        </tr>
+                        <tr>
+                            <td>S</td>
+                            <td>Movimenta o personagem para trás/baixo <span class="seta-grande">↓</span></td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Movimenta o personagem para a esquerda <span class="seta-grande">←</span></td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>Movimenta o personagem para a direita <span class="seta-grande">→</span></td>
+                        </tr>
+                        <tr>
+                            <td>Space bar/espaço</td>
+                            <td>Interagir</td>
+                        </tr>
+                    </tbody>                    
+                </table>
+            </div>
+        </div>
+    
+        <h3>1.2 Interações</h3>
+        <p class="descricao">
+            Para interagir com objetos ao redor, pressione a tecla <strong>space bar/espaço</strong>. Isso permitirá que seu personagem:
+        </p>
+        <ul class="interacoes">
+            <li>Colete lixos ao se aproximar deles.</li>
+            <li>Adicione itens ao inventário.</li>
+            <li>Inicie tarefas quando estiver próximo dos locais específicos.</li>
+        </ul>
+    </section>
+
+    <section>
+        <section class="sobre-jogo">
+            <h2>2. Sobre o Jogo</h2>
+            <p class="descricao-jogo">
+              O jogo <strong>"Fazenda Ecológica"</strong> foi pensado para o bem de nossa futura sociedade, com o propósito de ensinar e entreter através de práticas sustentáveis no campo.
+              Tais atividades podem ser aplicadas na parte urbana para o bem atual e futuro.
+            </p>
+          
+            <h3>2.1 Equipe</h3>
+
+            <div class="grupo-equipe">
+              <div class="categoria">
+                <h4> 2 Escritores</h4>
+                <div class="cards">
+                  <div class="card-pessoa">
+                    <img src="foto_Anderson.png" alt="Escritor 1">
+                    <p>Anderson Alves</p>
+                  </div>
+                  <div class="card-pessoa">
+                    <img src="foto_Joao.png" alt="Escritor 2">
+                    <p>João Otávio</p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="categoria">
+                <h4> 3 Artistas</h4>
+                <div class="cards">
+                  <div class="card-pessoa">
+                    <img src="foto_Amanda.jpg" alt="Artista 1">
+                    <p>Amanda Crystine</p>
+                  </div>
+                  <div class="card-pessoa">
+                    <img src="foto_Maria.jpg" alt="Artista 2">
+                    <p>Maria Eduarda</p>
+                  </div>
+                  <div class="card-pessoa">
+                    <img src="foto_Emanuel.png" alt="Artista 3">
+                    <p>Emanuel Cristian</p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="categoria">
+                <h4> 2 Líderes</h4>
+                <div class="cards">
+                  <div class="card-pessoa">
+                    <img src="Foto_Taila.jpg" alt="Líder 1">
+                    <p>Taila Carneiro</p>
+                  </div>
+                  <div class="card-pessoa">
+                    <img src="foto_Mateus.png" alt="Líder 2">
+                    <p>Mateus Ryan</p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="categoria">
+                <h4> 4 Programadores</h4>
+                <div class="cards">
+                  <div class="card-pessoa">
+                    <img src="foto_Matheus.png" alt="Programador 1">
+                    <p>Matheus Zapani</p>
+                  </div>
+                  <div class="card-pessoa">
+                    <img src="foto_Pedro.jpg" alt="Programador 2">
+                    <p>Pedro Henrique</p>
+                  </div>
+                  <div class="card-pessoa">
+                    <img src="foto_VitorM.jpg" alt="Programador 3">
+                    <p>Vitor Manoel</p>
+                  </div>
+                  <div class="card-pessoa">
+                    <img src="foto_VitorB.jpg" alt="Programador 4">
+                    <p>Vitor Beijamin</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+
+          <section class="secao">
+            <h2>3. Desenvolvimento do Jogo</h2>
+            <div class="bloco-texto">
+              <p>
+                Desde o início, colocamos metas possíveis para a equipe. Tais metas foram traçadas com o intuito educativo e lúdico. 
+                Entretanto, durante o desenvolvimento do jogo enfrentamos desafios técnicos — principalmente com código, criação do site e outras tarefas de implementação. 
+                Também passamos por dificuldades criativas, como no desenvolvimento do mapa, já que o aplicativo utilizado não permitia compartilhamento. 
+                Isso obrigava os membros da equipe a saírem de suas mesas para validar ou revisar visualmente partes do projeto através de um único computador.
+              </p>
+              <p>
+                Inicialmente, pensamos em diversas propostas, como um jogo de fazenda sustentável ou outras ideias. 
+                Após votação, foi escolhida a ideia da <strong>Fazenda Ecológica</strong>, por ser um tema importante, atual e acessível. 
+                Mesmo sendo amplamente discutido, a sustentabilidade ainda é pouco praticada. O jogo busca conscientizar crianças, jovens e empresas, mostrando como atitudes sustentáveis podem ser integradas ao cotidiano.
+              </p>
+            </div>
+          </section>
+          
+          <section class="secao">
+            <h2>4. Objetivo</h2>
+            <div class="bloco-texto">
+              <p>
+                O principal objetivo do jogo é incentivar o cuidado com a fazenda e com o meio ambiente por meio de tarefas interativas e educativas. 
+                Ao completar missões relacionadas à reciclagem, plantio, manejo dos animais e preservação dos recursos naturais, 
+                o jogador é estimulado a refletir sobre a importância da sustentabilidade. 
+              </p>
+              <p>
+                A proposta é que, ao construir um espaço ecológico e equilibrado dentro do jogo, 
+                o jogador perceba como pequenas atitudes do dia a dia — como separar o lixo corretamente ou ajudar animais — 
+                podem gerar grandes impactos positivos no mundo real. 
+                Mais do que um jogo, é uma experiência que promove a consciência ambiental de forma leve, divertida e transformadora.
+              </p>
+            </div>
+          </section>
+          
+          <section class="secao">
+            <h2>5. Personagem</h2>
+            <div class="bloco-texto">
+              <p>
+                O personagem principal é <strong>Seu Sebastião</strong>, um homem de 44 anos do interior de Minas Gerais. 
+                Certo dia, ele decide ir para a zona rural cuidar da fazenda deixada de herança por seu pai, que trabalhava com sustentabilidade de recursos naturais e cuidava dos animais.
+              </p>
+              <p>
+                Sebastião decide continuar o legado, ampliando o cultivo de alimentos e aumentando o número de animais da fazenda. 
+                Com o tempo, ele se torna conhecido por suas práticas sustentáveis e seu compromisso com o meio ambiente, sendo reconhecido como um verdadeiro exemplo de ambientalista.
+              </p>
+            </div>
+          
+            <div class="personagem-centro">
+              <img src="Seb.png" alt="Foto de Sebastião">
+              <p><em>Seu Sebastião</em></p>
+            </div>
+          </section>
+
+<section>
+    <h2>6. Mapa</h2>
+    <p>Imagem do mapa, lugar onde o jogo se passa:</p>
+    <div class="personagem-centro">
+        <img src="Mapa_jogo.png" alt="Mapa da Fazenda" width="300">
+    </div>
+</section>
+
+<section>
+    <h2>7. Cenário</h2>
+    <p>O jogo se passa em uma fazenda com casas, celeiro e outros cômodos no ambiente rural.</p>
+    <div class="cenario-galeria">
+        <div class="imagem-descricao">
+            <img src="senai.png" alt="Área principal da fazenda" width="150" height="200">
+            <p>Moinho na fazenda</p>
+        </div>
+        <div class="imagem-descricao">
+            <img src="casa.png" alt="Casa do personagem" width="200" height="300">
+            <p>Casa de Sebastião</p>
+        </div>
+        <div class="imagem-descricao">
+            <img src="Celeiro.png" alt="Celeiro com animais" width="200" height="300">
+            <p>Celeiro da fazenda</p>
+        </div>
+        <div class="imagem-descricao">
+          <img src="Local_pesca.png" alt="Área principal da fazenda" width="300" height="300">
+          <p>Local de pesca</p>
+      </div>
+    </div>
+</section>
+
+<section>
+    <h2>8. Animais</h2>
+    <p>
+        Os animais encontrados tanto dentro do celeiro quanto fora, devem ser cuidados e alimentados adequadamente de acordo com suas respectivas rações.
+        Seus propósitos serão explicados no próximo tópico.
+    </p>
+    <div class="galeria-animais">
+        <div class="animal">
+            <img src="vaca.png" alt="Vaca do jogo" width="150" height="150">
+            <p>Imagem da vaca</p>
+        </div>
+        <div class="animal">
+            <img src="galinha.png" alt="Galinha adulta" width="150" height="150">
+            <p>A galinha quando adulta</p>
+        </div>
+        <div class="animal">
+            <img src="porco.png" alt="Porco" width="150" height="150">
+            <p>Imagem do porco</p>
+        </div>
+        <div class="animal">
+          <img src="cachorro.png" alt="Porco" width="150" height="150">
+          <p>Cachorro de Sebastião</p>
+      </div>
+    </div>
+</section>
+
+    <section>
+      <section class="minigames-detalhes">
+        <h2>9. Minigames <span class="check"></span></h2>
+      
+        <h3>9.1 Quais são?</h3>
+        <p>
+          Em nosso jogo, buscamos entreter o jogador enquanto promovemos a conscientização sobre a <strong>sustentabilidade</strong>. Para isso, implementamos 
+          <strong>minijogos simples, acessíveis e envolventes</strong> que ajudam a reforçar esse conceito de forma divertida.
+        </p>
+        <p>
+          Os minigames disponíveis incluem: <strong>pesca</strong>, <strong>plantio de alimentos</strong>, <strong>coleta de lixo espalhado</strong>, <strong>ordenha de vacas</strong>, 
+          <strong>alimentação de animais</strong> e muito mais. Cada um deles contribui para a evolução da fazenda e reforça práticas sustentáveis no cotidiano do jogador.
+        </p>
+      </section>
+      
+        <section class="minigames">
+            <h3> 9.2 Explicação dos Minigames</h3>
+            <ul>
+              <li>
+                <div class="icon-title"> <strong>Coleta de Lixo</strong></div>
+                <p>
+                  O jogador deverá procurar lixos espalhados aleatoriamente pelo mapa. Depois de coletá-los, é preciso levá-los até as lixeiras
+                  corretas e descartá-los adequadamente.
+                </p>
+              </li>
+          
+              <li>
+                <div class="icon-title"> <strong>Plantio Sustentável</strong></div>
+                <p>
+                  Para plantar, o jogador deve preparar a terra, regá-la e semear o que foi plantado anteriormente. A irrigação é feita com um sistema de carretel —
+                  eficaz para quase todos os tipos de solo. Após cuidar da plantação, o jogador poderá colher com a foice disponível no celeiro.
+                </p>
+              </li>
+          
+              <li>
+                <div class="icon-title"> <strong>Tarefas com os Animais</strong></div>
+                <p>O jogador deverá:</p>
+                <ul class="sub-list">
+                  <li> Usar um balde (do celeiro) para ordenhar as vacas.</li>
+                  <li> Coletar os ovos das galinhas com um cesto.</li>
+                  <li> Alimentar os animais com ração retirada no celeiro.</li>
+                </ul>
+              </li>
+          
+              <li>
+                <div class="icon-title"> <strong>Pesca</strong></div>
+                <p>
+                  O jogador pega uma vara de pesca no celeiro e vai até o açude. Ao lançar a vara no rio, em vez de um peixe, ele pesca uma bota.
+                  Neste momento, aparece a mensagem: <em>“Estas são as consequências da poluição nos rios.”</em>
+                </p>
+              </li>
+            </ul>
+          </section>
+        
+          <section class="recompensas">
+            <h3>9.3 Recompensas <span class="check"></span></h3>
+            <p>
+              Ao concluir uma tarefa, o jogador será recompensado com <strong>1 moeda</strong>. Essa moeda poderia ser usada para <strong>melhorar a fazenda</strong>,
+              tornando o ambiente mais bonito e agradável visualmente. Além do progresso estético, essa mecânica proporciona um <strong>sentimento de incentivo</strong>,
+              estimulando o jogador a continuar completando tarefas. Com o tempo, essa repetição reforça a prática da sustentabilidade, transformando-a em um <strong>hábito natural</strong> no dia a dia do jogador.
+            </p>
+          </section>
+    </section>
+
+    <section>
+        <h2>10. Agradecimentos e Conclusão</h2> <!--como escreve isso D:
+         consegui >:)-->
+        <p>
+            Primeiramente devemos agredecer ao professor Luiz Fleck(SENAI, Caçador) por disponibilizar suas aulas para a conclusão desse 
+            projeto, ajudando os alunos a concluir a atividade e dando apoio através de comentários e através de ajuda com 
+            obter certos aplicativos para facilitar o trabalho da equipe, além disso o professor também sempre motivou os alunos a sempre 
+            estarem produzindo algo, "Caso não tenham nada para fazer, ajuda o colega, procura alguma coisa para fazer mas nunca fique parado".
+            Nisso também agradecemos o SENAI e também a empresa que estamos trabalhando por terem confiado em nós e em nossa dedicação e esforço.
+        </p>
+        <p>Devemos ressaltar o apoio familiar sem eles não estaríamos onde estamos hoje. E por fim agradecer a equipe pela dedicação
+            a divisão de trabalho feita de forma equilibrada e apoio dado pelos líderes e a criatividade dos artistas neste projeto
+            e para finalizar agradecer a resiliência e paciência dos programadores. Obrigado a todos.
+        </p>
+        <h3> Opinião da Equipe</h3>
+        <div class="opinioes">
+            <div class="opiniao" style="border-color: #e837ff">Escreva sua opinião aqui e finalize com "seu nome"</div>
+            <div class="opiniao" style="border-color: #2196f3">Por exemplo: "Eu realmente não pensei que iriamos completar o jogo em tempo mas conseguimos e estou satisfeito com o trabalho feito por nós".
+                -Matheus Zapani (isso é apenas um exemplo/teste e será mudado)</div>
+            <div class="opiniao" style="border-color: #00ff9d">opinião, finalize com "seu nome"</div>
+            <div class="opiniao" style="border-color: #ff397b">opinião, finalize com "seu nome"</div>
+            <div class="opiniao" style="border-color: #9c27b0">opinião, finalize com "seu nome"</div>
+            <div class="opiniao" style="border-color: #00bcd4">opinião e nome</div>
+            <div class="opiniao" style="border-color: #8bc34a">opinião e nome</div>
+            <div class="opiniao" style="border-color: #ff5722">Escreva </div>
+            <div class="opiniao" style="border-color: #0004ff">Escreva </div>
+            <div class="opiniao" style="border-color: #db734d">Escreva </div>
+            <div class="opiniao" style="border-color: #86c5e2">Escreva </div>
+            <div class="opiniao destaque"style="border-color: #FFD700">Opinião do professor</div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 <span class="project-name">Fazenda Ecológica</span>. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
+<!--eu devia ser escritor cristo-->

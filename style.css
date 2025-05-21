@@ -1,0 +1,621 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    border-bottom: 2px solid #4caf50;
+}
+
+header img {
+    max-width: 175px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #2e7d32;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul li img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: block;
+}
+
+.opinioes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.opiniao {
+    flex: 1 1 200px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.opiniao.destaque {
+    border: 3px solid gold;
+    background-color: #fffbe6;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px gold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.equipe {
+    list-style: none;
+    padding-left: 0;
+}
+
+.equipe li {
+    margin-bottom: 20px;
+}
+
+.pessoa {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.pessoa img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.pessoa p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.personagem-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.personagem-centro img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.personagem-centro p {
+    font-weight: bold;
+    color: #000000;
+    font-style: italic;
+}
+
+.cenario-galeria, .galeria-animais {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.imagem-descricao {
+    text-align: center;
+}
+
+.imagem-descricao img,
+.animal img {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.animal {
+    text-align: center;
+    max-width: 150px;
+}
+
+.animal p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer .project-name {
+    font-weight: bold;
+    color: #ffeb3b;
+}
+
+.movimento {
+    background-color: #f0fdf4;
+    border: 2px solid #4caf50;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.movimento h2, .movimento h3 {
+    margin-bottom: 15px;
+}
+
+.descricao {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.movimento-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.tabela-movimento table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e8f5e9;
+}
+
+.tabela-movimento th,
+.tabela-movimento td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.tabela-movimento th {
+    background-color: #a5d6a7;
+    color: #1b5e20;
+}
+
+.interacoes {
+    list-style: disc inside;
+    color: #444;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.interacoes li {
+    margin-bottom: 8px;
+}
+
+.minigames {
+    background-color: #f0f9f2;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: "Segoe UI", sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.minigames h3 {
+    font-size: 1.8em;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.minigames ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.minigames li {
+    background-color: #ffffff;
+    border-left: 5px solid #40916c;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.icon-title {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #1b4332;
+}
+
+.minigames p {
+    margin: 0 0 10px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.sub-list {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+.sub-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.sobre-jogo {
+    padding: 40px 20px;
+    background-color: #f0fdf4;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.sobre-jogo h2 {
+    font-size: 2em;
+    color: #2e7d32;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sobre-jogo .descricao-jogo {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    color: #4e4e4e;
+    text-align: center;
+}
+
+.sobre-jogo h3 {
+    font-size: 1.6em;
+    color: #388e3c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grupo-equipe {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.categoria h4 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #2e7d32;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-pessoa {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-pessoa:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card-pessoa img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #a5d6a7;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card-pessoa:hover img {
+    transform: scale(1.05);
+}
+
+.card-pessoa p {
+    font-weight: bold;
+    color: #2e7d32;
+    font-size: 1em;
+}
+
+.secao {
+    background-color: #fafafa;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.secao h2 {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    border-left: 5px solid #81c784;
+    padding-left: 12px;
+}
+
+.bloco-texto {
+    font-size: 1.05em;
+    color: #444;
+    line-height: 1.7em;
+}
+
+.bloco-texto p {
+    margin-bottom: 15px;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2e7d32;
+}
+
+.personagem-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.personagem-centro img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.personagem-centro p {
+    font-weight: bold;
+    color: #000000;
+    font-style: italic;
+}
+
+.cenario-galeria {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.imagem-descricao {
+    text-align: center;
+}
+
+.imagem-descricao img {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.galeria-animais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.animal {
+    text-align: center;
+    max-width: 150px;
+}
+
+.animal img {
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+.animal p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.seta-grande {
+    font-size: 1.5em; /* Aumenta o tamanho da seta */
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.recompensas {
+    background-color: #f0fdf4;
+    border: 2px solid #4caf50;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 800px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recompensas h3 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.recompensas p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.recompensas .check {
+    font-size: 1.2em;
+}
+.minigames-detalhes {
+    background-color: #f0f9f2;
+    padding: 25px;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.minigames-detalhes h2 {
+    color: #2e7d32;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.minigames-detalhes h3 {
+    font-size: 1.5em;
+    color: #388e3c;
+    margin-bottom: 12px;
+}
+
+.minigames-detalhes p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .opinioes {
+        flex-direction: column;
+    }
+
+    .movimento-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .card-pessoa {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cenario-galeria, .galeria-animais {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .animal {
+        max-width: 90%;
+    }
+
+    ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .minigames, .minigames-detalhes, .movimento, .recompensas, .sobre-jogo {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .pessoa {
+        display: block;
+        margin: 0 auto 15px;
+    }
+
+    .pessoa img {
+        width: 80px;
+    }
+}
