@@ -619,3 +619,22 @@ h2 {
         width: 80px;
     }
 }
+
+.titulo-com-retangulo {
+  position: relative;
+  padding-left: 16px;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block; 
+}
+
+.titulo-com-retangulo::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  bottom: 5px;
+  width: 4px;
+  background-color: #4CAF50;
+  border-radius: 2px;
+}
